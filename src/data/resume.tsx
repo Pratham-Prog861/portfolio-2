@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
+import { HomeIcon, NotebookIcon, Presentation } from "lucide-react";
 import { ReactLight } from "@/components/ui/svgs/reactLight";
 import { NextjsIconDark } from "@/components/ui/svgs/nextjsIconDark";
 import { Typescript } from "@/components/ui/svgs/typescript";
@@ -37,6 +37,7 @@ export const DATA = {
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    { href: "/projects", icon: Presentation , label: "Projects" },
   ],
   contact: {
     email: "pratham8355@gmail.com",
@@ -90,7 +91,7 @@ export const DATA = {
   education: [
     {
       school: "Parul University",
-      href: "https://uwaterloo.ca",
+      href: "https://www.paruluniversity.ac.in/",
       degree: "BSc. IT",
       logoUrl: "https://www.paruluniversity.ac.in/wp-content/uploads/2025/09/Variant9.svg",
       start: "2023",
@@ -150,7 +151,6 @@ export const DATA = {
         "React",
         "Motion",
         "TailwindCSS",
-        "Stripe",
         "Shadcn UI",
         "Axios",
         "Postman Alternative"
@@ -227,7 +227,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/product/streamflix.png",
+      image: "/product/streamflix.webp",
       video: "",
     },
   ],
