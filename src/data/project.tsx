@@ -293,17 +293,12 @@ export const PROJECTS: readonly Project[] = [
     technologies: ["Python", "Streamlit"],
     links: [
       {
-        type: "Website",
-        href: "https://phd-convertor.streamlit.app/",
-        icon: <Icons.globe className="size-3" />,
-      },
-      {
         type: "Source",
         href: "https://github.com/Pratham-Prog861/Streamlit",
         icon: <Icons.github className="size-3" />,
       },
     ],
-    image: "/product/currency-convertor.webp",
+    image: "/product/currency-convertor.png",
     video: "",
   },
   {
