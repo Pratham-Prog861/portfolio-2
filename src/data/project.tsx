@@ -10,6 +10,7 @@ export type ProjectLink = {
 export type Project = {
   title: string;
   href?: string;
+  dates?: string;
   active: boolean;
   description: string;
   technologies: readonly string[];
