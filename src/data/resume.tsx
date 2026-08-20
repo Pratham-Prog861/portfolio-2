@@ -76,6 +76,18 @@ export const DATA = {
 
   work: [
     {
+      company: "Eshkon",
+      href: "",
+      badges: [],
+      location: "Remote",
+      title: "Full Stack Engineer",
+      logoUrl:
+        "https://media.licdn.com/dms/image/v2/D560BAQHQgWWprEMsNg/company-logo_100_100/B56Zj5usZjHkAU-/0/1756536424851?e=1788998400&v=beta&t=xTJPvXB3G_C6wWUXn0OKI3JyWObtuYnf9895ViXUGls",
+      start: "Jul 2026",
+      end: "Present",
+      description: "Remote role based in Ahmedabad, Gujarat, India.",
+    },
+    {
       company: "SparshTech",
       href: "https://www.sparshtech.in/",
       badges: [],
@@ -83,7 +95,7 @@ export const DATA = {
       title: "Full Stack Developer ( Startup Experiance )",
       logoUrl: "/sparsh-logo.jpg",
       start: "Sept 2025",
-      end: "Present",
+      end: "Jun 2026",
       description:
         "Full Stack Developer specializing in React, Next.js, and Node.js, focused on building scalable and AI-powered web applications. Developed multiple real-world products including an API testing tool, coding platform, and AI resume builder. Strong in frontend architecture with practical backend experience. Seeking frontend or full stack roles to build impactful user-centric products.",
     },
